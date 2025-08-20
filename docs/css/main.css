@@ -290,7 +290,7 @@ pre.w-code-block code {
   all: inherit;
 }
 
-/*.w-webflow-badge, .w-webflow-badge * {
+.w-webflow-badge, .w-webflow-badge * {
   z-index: auto;
   visibility: visible;
   box-sizing: border-box;
@@ -341,7 +341,7 @@ pre.w-code-block code {
   right: auto;
   overflow: visible;
   transform: none;
-}*/
+}
 
 .w-webflow-badge {
   white-space: nowrap;
@@ -360,7 +360,7 @@ pre.w-code-block code {
   font-size: 12px !important;
   line-height: 14px !important;
   text-decoration: none !important;
-  display: inline-block !important;
+  display: none; /*inline-block !important;*/
   position: fixed !important;
   top: auto !important;
   bottom: 12px !important;
